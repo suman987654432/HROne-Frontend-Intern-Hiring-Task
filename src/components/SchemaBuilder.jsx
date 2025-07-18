@@ -9,7 +9,7 @@ export default function SchemaBuilder({ control }) {
     name: "fields",
   });
 
-  return (
+  return(
     <div>
       {fields.map((field, index) => (
         <FieldRow
