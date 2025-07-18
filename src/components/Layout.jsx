@@ -1,6 +1,9 @@
 import React from "react";
+import { useTheme } from "../contexts/ThemeContext";
 
 export default function Layout({ left, right }) {
+  const { colors } = useTheme();
+
   return (
     <>
       <div
@@ -14,8 +17,8 @@ export default function Layout({ left, right }) {
             flex: 1,
             padding: 20,
             overflowY: "auto",
-            borderRight: "1px solid #ddd",
-            background: "#fff",
+            borderRight: `1px solid ${colors.border}`,
+            background: colors.background,
           }}
         >
           {left}
@@ -27,7 +30,7 @@ export default function Layout({ left, right }) {
           style={{
             flex: 1,
             padding: 20,
-            background: "#fafafa",
+            background: colors.secondary,
             overflowY: "auto",
           }}
         >

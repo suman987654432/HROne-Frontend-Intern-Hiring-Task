@@ -74,7 +74,7 @@ src/
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/json-schema-builder.git
+git clone https://github.com/suman987654432/HROne-Frontend-Intern-Hiring-Task
 cd json-schema-builder
 ```
 
@@ -88,7 +88,7 @@ npm install
 npm start
 ```
 
-🌐 **Application URL:** http://localhost:3000
+🌐 **Application URL:** https://hr-one-frontend-intern-hiring-task.vercel.app/
 
 ---
 
@@ -104,21 +104,10 @@ npm start
 
 ## 📸 Preview
 
-> *Add an image of the UI showing both Builder & JSON Preview panels*
 
 ![Schema Builder Screenshot](public/ScreenshotSchema.png)
 
----
 
-## 🏆 Enhanced Features
-
-| Feature | Status | Description |
-|---------|--------|-------------|
-| 📋 Copy JSON | ✅ | Copy generated schema to clipboard |
-| 💾 Download JSON | ✅ | Export schema as `.json` file |
-| 🌙 Dark Mode | ⚡ | Toggle between light/dark themes *(Optional)* |
-
----
 
 ## 💡 Project Highlights
 
